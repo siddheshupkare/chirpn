@@ -1,9 +1,10 @@
 <h1 style="text-align: center;">Movie App</h1>
 <div class='container' *ngFor="let item of genreData">
-  <section class='child'>{{item.name}}
+  <div class="top-align"><h1>{{item.name}}</h1></div>
+  <section class='child'>
+    <hr>
     <app-movie [value]="item.id"></app-movie>
  </section>
- <hr>
 </div>
 
 

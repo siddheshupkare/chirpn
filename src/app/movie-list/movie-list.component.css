@@ -16,6 +16,11 @@
 }
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
+  .container {
+    max-height: 10vh;
+
+    border: 1px solid gray;
+  }
   .child {
     line-height: 10vh;
     color: white;
@@ -31,21 +36,37 @@
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
+  .container {
+    max-height: 60vh;
+
+    border: 1px solid gray;
+  }
   .child {
     line-height: 10vh;
     color: white;
     background: gray;
     text-align:center;
 
+
     border-bottom: 1px solid white;
     font-size: 20px;
 
 
   }
+  .top-align
+  {
+    text-align: center;
+    vertical-align: top;
+  }
  }
 
  /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {
+  .container {
+    max-height: 70vh;
+
+    border: 1px solid gray;
+  }
   .child {
     line-height: 10vh;
     color: white;
@@ -61,8 +82,13 @@
 
  /* Large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {
+  .container {
+    max-height: 80vh;
+
+    border: 1px solid gray;
+  }
   .child {
-    line-height: 40vh;
+    line-height: 10vh;
     color: white;
     background: gray;
     text-align:center;
