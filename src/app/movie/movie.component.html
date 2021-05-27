@@ -1,0 +1,11 @@
+<div>
+<drag-scroll>
+  <!-- <h1 drag-scroll-item *ngFor="let item of movieData"><img src={{item.poster_path}} /></h1> -->
+  <div drag-scroll-item class="card" *ngFor="let item of movieData">
+    <img src={{item.poster_path}} style="width:100%">
+    <div class="container">
+      <h4 style="color: black;" [routerLink]="['/details',item.id]">{{item.original_title}}</h4>
+    </div>
+  </div>
+</drag-scroll>
+</div>

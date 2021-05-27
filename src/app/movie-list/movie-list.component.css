@@ -1,0 +1,16 @@
+.container {
+	max-height: 50vh;
+
+	border: 1px solid gray;
+}
+.child {
+	line-height: 10vh;
+	color: white;
+	background: gray;
+	text-align:center;
+
+	border-bottom: 1px solid white;
+  font-size: 20px;
+
+
+}
